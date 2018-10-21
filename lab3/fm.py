@@ -16,10 +16,10 @@ x, y, op,s,r = generate_quiz()
 
 # r = eval(x,y,op)
 #print(x,op,y,"=",r)
-print("{0} {3} {1} = {2}".format(x,y,s,op).upper())
+print("{0} {3} {1} = {2}".format(x,y,s,op))
 
 # single entitys
-user_answer = input("(Y/N)?")
+user_answer = input("(Y/N)?").upper()
 if r == s:
     if user_answer == "y":
         print("right")

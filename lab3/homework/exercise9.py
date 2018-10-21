@@ -1,8 +1,11 @@
-def extract_even(nums = []): 
+def extract_even(nums = []):
+    new_list = [] 
     for index ,item in enumerate(nums): 
-        if nums[index] % 2 == 0:       
-            print(nums[index])
+        if item % 2 == 0:       
+            new_list.append(item)
+    return new_list        
                   
-extract_even(nums = [1, 4, 5, -1, 10] )
+print(extract_even(nums = [1, 4, 5, -1, 10] ))
+
 
 

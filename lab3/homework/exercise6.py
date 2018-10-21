@@ -2,7 +2,11 @@ from turtle import *
 
 def draw_star(x,y,length):
     shape("turtle")
-    goto(50,100)
+    penup()
+    #goto(x,y)   
+    setx(x)
+    sety(y)
+    pendown()
     for i in range(5):
         forward(length)
         left(144)
