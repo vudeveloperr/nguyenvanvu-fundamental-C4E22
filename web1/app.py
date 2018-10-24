@@ -27,6 +27,5 @@ def add(x,y):  # str
 def show_question():
     return render_template("question.html")
 
-
 if __name__ == "__main__":
     app.run(debug = True)
