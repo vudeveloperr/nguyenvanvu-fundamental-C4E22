@@ -1,0 +1,18 @@
+html , body{
+    height: 100%;
+}
+#root{ /*id*/
+    width: 100%;
+    height: 100% ;
+    background-color: rgb(245, 212, 248);
+    display: flex;
+    flex-flow: row;
+    justify-content: space-around ;
+
+}
+.rect { /*class*/
+    width: 100px;
+    height: 100px;
+    background-color: rgb(136, 209, 87);
+    margin: 4px;
+}

@@ -1,0 +1,46 @@
+html , body{
+    height: 100%;
+}
+*{
+    border: 1px red dashed;
+}  
+#content_wrapper{
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+}
+button {
+    font-size: 1.1rem;
+    padding: 6px 10px 6px 10px ; /* chinh theo chieu kim dong ho*/
+    border-radius: 14px;/*bo tron goc*/
+    background-color: palevioletred;
+    color : greenyellow;
+    cursor: pointer;
+
+
+    
+}
+#root{
+    width: 100%;
+    height: 100%; 
+    background-color: #ffffff;
+    display: flex;
+    flex-flow: row;
+    justify-content: center;
+    align-items: center;
+}
+*{
+    font-size: 1.1rem;
+}
+
+#choice_wrapper {
+    width: 25.33%;
+    display: flex;
+    flex-flow: row wrap ;
+    justify-content: space-between;
+}
+.input_choice {
+    width: 45%;
+    border-radius: 10px;
+    margin-bottom: 8px ;
+}
