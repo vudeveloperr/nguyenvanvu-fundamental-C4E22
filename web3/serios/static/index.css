@@ -1,0 +1,32 @@
+html , body{
+    height: 100%;
+   
+}
+button {
+    font-size: 1.1rem;
+    padding: 6px 17px 6px 17px ; /* chinh theo chieu kim dong ho*/
+    border-radius: 12px;/*bo tron goc*/
+    background-color: rgb(199, 172, 207);
+    color : rgb(22, 27, 15);
+    cursor: pointer;
+}
+
+input {
+    border-width: 1px;
+    padding-left: 1px;
+    padding: 6px 50px 6px 50px ;
+}
+
+#wrapper , .content_center{
+    background-image: url() ;
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    padding-top: 250px;
+}
+/* #wrapper{
+    width: 40.33%;
+    display: flex;
+    flex-flow: column ; 
+    
+} */
